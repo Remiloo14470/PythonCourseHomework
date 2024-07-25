@@ -19,14 +19,11 @@ def is_contains(string, list_to_search):
     count_calls()
     string_lower = string.lower()
     list_to_search_lower = [item.lower() for item in list_to_search]
-    in_list = True
 
-    for item in list_to_search_lower:
-        if string_lower == item:
-            in_list = True
-        else:
-            in_list = False
-    return in_list
+    if string_lower in list_to_search_lower:
+        return True
+    else:
+        return False
 
 
 print(string_info('Capybara'))
