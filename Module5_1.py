@@ -1,7 +1,7 @@
 import random
 
 
-class House():
+class House:
     def __init__(self, name, number_of_floors):
         self.number_of_floors = number_of_floors
         self.name = name
