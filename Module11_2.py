@@ -1,7 +1,3 @@
-import inspect
-from pprint import pprint
-
-
 def introspection_info(obj):
 
     info = {}
