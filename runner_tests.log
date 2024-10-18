@@ -1,0 +1,9 @@
+2024-10-17 17:29:08,062 | WARNING | Неверный тип данных для обьекта Runner
+2024-10-17 17:29:08,065 | WARNING | Неверная скорость для Runner
+Traceback (most recent call last):
+  File "/Users/raminapolkina/PycharmProjects/PythonCourseModule_12/Module12_4.py", line 59, in test_walk
+    run1 = Runner('Jack', -5)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/raminapolkina/PycharmProjects/PythonCourseModule_12/Module12_4.py", line 16, in __init__
+    raise ValueError(f'Скорость не может быть отрицательной, сейчас {speed}')
+ValueError: Скорость не может быть отрицательной, сейчас -5
