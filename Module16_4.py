@@ -20,7 +20,7 @@ async def get_users() -> List[User]:
 @app.post("/user/{username}/{age}")
 async def add_user_func(username: Annotated[str, Path(max_length=15, min_length=3, description='Enter you username', example='Remiloo')],
                         age: int = Path(ge=0, le=100, description='Enter your age', example='23')) -> User:
-    user_id = len(users) + 1
+    user_id = max(users, key=lambda x: int(x.id)).id + 1 if users else 1
     user = User(id=user_id, username=username, age=age)
     users.append(user)
     return user
