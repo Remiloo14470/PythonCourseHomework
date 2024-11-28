@@ -1,5 +1,6 @@
 from fastapi import APIRouter
 
+
 router = APIRouter(prefix="/task", tags=["task"])
 
 
@@ -26,3 +27,4 @@ async def update_task():
 @router.put("/delete")
 async def delete_task():
     pass
+
