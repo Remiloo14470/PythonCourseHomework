@@ -36,7 +36,7 @@ async def tasks_by_user_id(get_db: Annotated[Session, Depends(get_db)], user_id:
             status_code=status.HTTP_404_NOT_FOUND,
             detail="User not found"
         )
-    tasks = get_db.scalars(select(Task).where(User.id == user_id)).all()
+    tasks = get_db.scalars(select(Task).where(Task.user_id == user_id)).all()
     return tasks
 
 
