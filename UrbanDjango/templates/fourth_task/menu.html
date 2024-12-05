@@ -1,0 +1,39 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+</head>
+<body>
+    <header>
+        {% block pagename %}
+        <p>
+        <h1 align="left"> {{page_title}} </h1>
+        </p>
+        {% endblock %}
+    </header>
+
+    <nav>
+        {% block menu %}
+    <ul>
+        <a href = "/main">Главная</a>
+        <br>
+        <a href = "second_page">Магазин</a>
+        <br>
+        <a href = "third_page">Корзина</a>
+        <br>
+    </ul>
+        {% endblock %}
+    </nav>
+
+    <main>
+        {% block content %}
+        <h2> {{ text }} </h2>
+        {% endblock %}
+    </main>
+    <footer>
+        {% block footer %}
+        <form action="/main">
+            <button>Вернуться обратно</button>
+        </form>
+        {% endblock %}
+    </footer>
+</body>

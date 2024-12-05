@@ -1,0 +1,26 @@
+{% extends "menu.html" %}
+
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин</title>
+</head>
+
+{% block pagename %}
+    {{ block.super }}
+{% endblock %}
+
+{% block menu %}
+    {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <ul>
+        {%for i in list_of_games%}
+        <li>{{ i }}<button type="submit">Купить</button></li>
+        {% endfor %}
+    </ul>
+{% endblock %}
+
+{% block footer %}
+    {{ block.super }}
+{% endblock %}
