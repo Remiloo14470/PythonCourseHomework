@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30fe2236-e911-45ae-ad93-503acd4d7781" name="Changes" comment="task3 app directory">
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/fourth_task/main_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/fourth_task/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/fourth_task/second_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/fourth_task/third_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/task3/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/task4/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="30fe2236-e911-45ae-ad93-503acd4d7781" name="Changes" comment="menu template" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733316075689</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="menu template">
+      <option name="closed" value="true" />
+      <created>1733389826524</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733389826524</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +141,7 @@
     <MESSAGE value="urls" />
     <MESSAGE value="task3 app" />
     <MESSAGE value="task3 app directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="task3 app directory" />
+    <MESSAGE value="menu template" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu template" />
   </component>
 </project>
