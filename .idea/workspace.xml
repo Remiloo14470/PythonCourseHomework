@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30fe2236-e911-45ae-ad93-503acd4d7781" name="Changes" comment="menu template" />
+    <list default="true" id="30fe2236-e911-45ae-ad93-503acd4d7781" name="Changes" comment="minor modifications">
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/task5/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/fifth_task/registration_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango/task2/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/task2/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango/task4/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/task4/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango/templates/fourth_task/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/templates/fourth_task/main_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango/templates/fourth_task/second_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/templates/fourth_task/second_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango/templates/fourth_task/third_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/templates/fourth_task/third_page.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +49,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Python.Module18_1.executor": "Run",
+    "Python.settings.executor": "Run",
     "Python.urls.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -122,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733389826524</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="minor modifications">
+      <option name="closed" value="true" />
+      <created>1733389964457</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733389964457</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +162,7 @@
     <MESSAGE value="task3 app" />
     <MESSAGE value="task3 app directory" />
     <MESSAGE value="menu template" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu template" />
+    <MESSAGE value="minor modifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor modifications" />
   </component>
 </project>

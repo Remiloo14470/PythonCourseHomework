@@ -7,7 +7,7 @@ def main_func(request):
     context = {
         'page_title': page_title,
     }
-    return render(request, "main_page.html", context)
+    return render(request, "fourth_task/main_page.html", context)
 
 
 def second_page_func(request):
@@ -17,7 +17,7 @@ def second_page_func(request):
         'page_title': page_title,
         'list_of_games': list_of_games
     }
-    return render(request, "second_page.html", context)
+    return render(request, "fourth_task/second_page.html", context)
 
 
 def third_page_func(request):
@@ -27,4 +27,4 @@ def third_page_func(request):
         'page_title': page_title,
         'text': text
     }
-    return render(request, "third_page.html", context)
+    return render(request, "fourth_task/third_page.html", context)
