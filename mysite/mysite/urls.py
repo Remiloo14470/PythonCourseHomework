@@ -26,6 +26,7 @@ platform_patterns = [
 ]
 
 urlpatterns = [
+    path('admin/', admin.site.urls),
     path("", main),
     path('platform/', include(platform_patterns)),
     path('registration', sign_up_by_django),

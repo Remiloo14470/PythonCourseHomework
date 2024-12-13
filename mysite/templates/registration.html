@@ -1,14 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "menu.html" %}
+
 <head>
     <meta charset="UTF-8">
-    <title>RegField</title>
+    <title>SignUP</title>
 </head>
-<body>
-    <header>
+
+{% block pagename %}
         <h1> Регистрация </h1>
         <h2> {{ error }} </h2>
-    </header>
+{% endblock %}
+
+<body>
     <form method = "POST">
         {% csrf_token %}
         <label for="username">Введите логин:</label>
@@ -25,5 +27,14 @@
 
         <button type="submit">Отправить</button>
     </form>
+
+{% block button %}
+
+{% endblock %}
+
+{% block footer%}
+    {{ block.super }}
+{% endblock %}
+
 </body>
 </html>

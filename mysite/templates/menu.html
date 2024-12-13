@@ -1,23 +1,23 @@
+{% load static %}
+
 <head>
     <meta charset="UTF-8">
     <title>Menu</title>
+    <link rel="stylesheet" href="{% static 'task1/style.css' %}">
 </head>
 <body>
     <header>
         {% block pagename %}
-        <h2 align="left"> {{page_title}} </h2>
+        <h2 align="left"> {{ page_title }} </h2>
         {% endblock %}
     </header>
 
     <nav>
         {% block menu %}
     <ul>
-        <a href = "http://127.0.0.1:8000/platform/">Главная</a>
-        <br>
-        <a href = "games">Магазин</a>
-        <br>
-        <a href = "cart">Корзина</a>
-        <br>
+        <p><a href = "http://127.0.0.1:8000/platform/"> Главная </a></p>
+        <p><a href = "games"> Магазин </a></p>
+        <p><a href = "cart"> Корзина </a></p>
     </ul>
         {% endblock %}
     </nav>
@@ -26,12 +26,18 @@
         {% block content %}
         <h2> {{ text }} </h2>
         {% endblock %}
-    </main>
-    <footer>
-        {% block footer %}
+
+        {% block button %}
         <form action="/platform">
             <button>Вернуться обратно</button>
         </form>
+        {% endblock %}
+    </main>
+    <footer>
+        {% block footer %}
+        <p>
+            Mysite - 2024. All rights reserved.
+        </p>
         {% endblock %}
     </footer>
 </body>
